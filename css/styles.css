@@ -11,7 +11,7 @@
 .navigation-list-link:focus {
   color: #2196f3;
 }
-.address-cont {
+.address-cont .address-mail {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -19,4 +19,21 @@
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: #757575;
+}
+.address-cont .address-mail:hover,
+.address-cont .address-mail:hover {
+  color: #2196f3;
+}
+.address-cont .address-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.address-cont .address-tel:hover,
+.address-cont .address-tel:focus {
+  color: #2196f3;
 }
