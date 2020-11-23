@@ -5,9 +5,6 @@
 }
 .body {
   font-family: Roboto;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
   color: var(--primery-text-color);
 }
 /* Header */
@@ -38,7 +35,6 @@
 
 /* contacts */
 .address-cont .address-mail {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -52,7 +48,6 @@
 }
 
 .address-cont .address-tel {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -67,7 +62,6 @@
 
 /* Hero */
 .hero-title {
-  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
@@ -79,7 +73,6 @@
 
 /* button */
 .modal-btn {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -95,8 +88,8 @@
 }
 /*sity*/
 .footer .location {
-  font-family: Roboto;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -105,10 +98,38 @@
 
 /*crew*/
 .crewlist .name {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+}
+
+/*our service*/
+.service .service-item {
+  font-size: 16px;
+  line-height: 1.625;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.service .service-item:hover,
+.service .service-item:focus {
+  color: var(--accent-color);
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.project .project-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
 }
