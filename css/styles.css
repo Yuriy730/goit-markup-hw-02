@@ -8,6 +8,7 @@
   font-family: Roboto;
   color: var(--primery-text-color);
   font-weight: 500;
+  background-color: var(--primery-white-color);
 }
 /* Header */
 .logo-accent {
@@ -68,6 +69,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   /*color: #ffffff;*/
+  background-color: ;
 }
 
 /* button */
@@ -129,4 +131,10 @@
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
+}
+.footer {
+  background-color: #2f303a;
+}
+.footer .logo {
+  color: var(--primery-white-color);
 }
