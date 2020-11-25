@@ -87,14 +87,6 @@
 .features .title {
   color: var(--title-text-color);
 }
-/*sity*/
-.footer .location {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  /*color: #ffffff;*/
-}
 
 /*crew*/
 .crewlist .name {
@@ -113,6 +105,7 @@
   text-align: center;
   color: var(--title-text-color);
 }
+
 .service .service-item:hover,
 .service .service-item:focus {
   color: var(--accent-color);
@@ -138,4 +131,12 @@
 }
 .footer .logo {
   color: var(--primery-white-color);
+}
+/*sity*/
+.footer .location {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /*color: #ffffff;*/
 }
